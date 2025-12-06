@@ -110,6 +110,60 @@ icon: lucide/rocket
       text-align: center;
       margin-top: 60px;
     }
+
+    /* ------------------------------------------
+      RESPONSIVE BREAKPOINTS
+    -------------------------------------------*/
+
+    /* Tablet */
+    @media (max-width: 900px) {
+      .hero {
+        padding: 110px 20px 130px;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+      }
+    }
+
+    /* Medium Phones */
+    @media (max-width: 600px) {
+      .hero {
+        padding: 90px 20px 110px;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .hero .cta-btn {
+        padding: 12px 22px;
+        font-size: 1rem;
+      }
+    }
+
+    /* Small Phones (iPhone SE, older Android) */
+    @media (max-width: 420px) {
+      .hero {
+        padding: 70px 16px 100px;
+      }
+
+      .hero h1 {
+        font-size: 1.7rem;
+      }
+
+      .hero p {
+        font-size: 0.95rem;
+      }
+    }
   </style>
 </head>
 
