@@ -71,15 +71,8 @@ nav = [
                 "python/spatial/intro.md"
         ]},
     ]},
-    { "Blog" = [
-        "blog/index.md"
-    ]},
     { "Community" = [
         "community/index.md"
-    ]},
-    { "About us" = [
-        "about/about.md",
-        "about/team.md"
     ]}
 ]
 
