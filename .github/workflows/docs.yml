@@ -36,7 +36,7 @@ jobs:
           # Switch to gh-pages branch
           git checkout gh-pages || git checkout --orphan gh-pages
           # Remove old files
-          git rm -rf . || true
+          # git rm -rf . || true
           # Copy new site build files
           cp -r site/* .
           # Commit
