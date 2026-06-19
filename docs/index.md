@@ -31,7 +31,7 @@ hide:
 
 ## Shipped monthly, one tutorial at a time
 
-Each release is a self-contained GitHub repo with a Colab notebook. We publish when the tutorial is ready — not before.
+Each release is a self-contained GitHub repo with a Colab notebook.
 
 <div class="nw-home__grid" markdown="0">
   <div class="nw-home__card">
