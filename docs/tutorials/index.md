@@ -10,4 +10,12 @@ We publish project-first metocean tutorials monthly. Each tutorial has its own G
 |----------|------|--------|
 | [Point Extraction](extract-point/index.md) | [extract-point](https://github.com/nusawave-labs/extract-point) | Early release |
 
-New tutorials are announced on LinkedIn when ready.
+## Coming Next
+
+| Tutorial | Target | Topic |
+|----------|--------|-------|
+| Ocean Map Plot | Jul 2026 | SST and current maps with cartopy |
+| Time Series Analysis | Aug 2026 | Resample, trend, decomposition |
+| Waves Basics | Sep 2026 | Hs, Tp, Dir, wave rose |
+
+Follow [Nusawave on LinkedIn](https://www.linkedin.com/company/nusawave) for release announcements.

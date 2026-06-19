@@ -37,3 +37,7 @@ Full access instructions and attribution requirements are in [DATA_SOURCES.md](h
 ## Dependencies
 
 Each tutorial repo pins its own `requirements.txt` or `environment.yml`. Check the tutorial repo before running locally or in Colab.
+
+## New to This Stack?
+
+Start with the [Point Extraction tutorial](../tutorials/extract-point/) — it uses ERA5 sample data included in the repo. No API key required to run the notebook.

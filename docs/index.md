@@ -12,11 +12,11 @@ hide:
   <div class="nw-home__hero-inner">
     <span class="nw-home__eyebrow">Open knowledge hub</span>
     <h1>Nusawave Labs</h1>
-    <p class="nw-home__tagline">An Open-source knowledge hub for metocean analytics.</p>
-    <p class="nw-home__lead">Project-first Python tutorials for metocean analytics — ERA5, Copernicus, NOAA, and open data only. Colab-ready notebooks, pinned dependencies, real offshore workflows.</p>
+    <p class="nw-home__tagline">An open knowledge hub for metocean analytics.</p>
+    <p class="nw-home__lead">Learn metocean data analysis the way it is done in real projects — open data, reproducible Python, and Colab notebooks that run in minutes. For students, researchers, and practitioners.</p>
     <div class="nw-home__actions">
-      <a href="tutorials/extract-point/" class="md-button md-button--primary">Point Extraction Tutorial</a>
-      <a href="tutorials/" class="md-button">All Tutorials</a>
+      <a href="tutorials/" class="md-button md-button--primary">Browse Tutorials</a>
+      <a href="tutorials/extract-point/" class="md-button">Point Extraction (Start Here)</a>
       <a href="https://github.com/nusawave-labs" class="md-button" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
@@ -51,6 +51,6 @@ Each release is a self-contained GitHub repo with a Colab notebook.
   </div>
 </div>
 
-New releases are announced on LinkedIn. Contributions welcome via [GitHub](https://github.com/nusawave-labs).
+New releases are announced on [LinkedIn](https://www.linkedin.com/company/nusawave). Contributions welcome via [GitHub](https://github.com/nusawave-labs).
 
 </div>

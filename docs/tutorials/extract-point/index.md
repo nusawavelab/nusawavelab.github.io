@@ -6,8 +6,8 @@ icon: lucide/crosshair
 
 Extract metocean values at a point from large NetCDF files — without loading multi-GB grids into memory.
 
-!!! warning "Early release"
-    The notebook and utility module are still being expanded. Expect updates as the tutorial matures.
+!!! note "Work in progress"
+    This tutorial is being actively expanded. The notebook runs end-to-end — updates will add more depth.
 
 ## The problem
 
