@@ -11,13 +11,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "NusawaveLab"
+site_name = "Nusawave Labs"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "An Open-source knowledge hub for metocean analytics, numerical modeling, Python workflows, and modern ocean intelligence."
+site_description = "Where open-source metocean knowledge meets industry-grade consulting expertise."
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -27,14 +27,18 @@ site_author = "tyoso"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-#site_url = "https://www.example.com/"
+site_url = "https://nusawave-labs.github.io/"
+
+repo_url = "https://github.com/nusawave-labs/nusawave-labs.github.io"
+repo_name = "GitHub"
+edit_uri = "edit/main/docs/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2025 NusawaveLab
+Copyright &copy; 2026 Nusawave Labs. Code: <a href=\"https://github.com/nusawave-labs/nusawave-labs.github.io/blob/main/LICENSE\">MIT</a>. Content: <a href=\"LICENSE-CONTENT/\">CC-BY 4.0</a>.
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -47,29 +51,12 @@ Copyright &copy; 2025 NusawaveLab
 
 nav = [
     { "Home" = "index.md" },
-    { "Roadmap" = [
-        "roadmap/index.md"
+    { "Tutorials" = [
+        "tutorials/index.md",
+        { "Point Extraction" = "tutorials/extract-point/index.md" },
     ]},
-    { "Ocean Modeling" = [
-        "model/index.md",
-        "model/zensical.md",
-        "model/markdown.md" 
-    ]},
-    { "Python for Metocean Analytics" = [
-        "python/index.md",
-        { "Fundamentals" = [
-                "python/basics/intro.md",
-                "python/basics/install.md"
-        ]},
-        { "Data Visualizations" = [
-                "python/dataviz/intro.md"
-        ]},
-        { "Data Processing: Time Series" = [
-                "python/timeseries/intro.md"
-        ]},
-        { "Data Processing: Spatial" = [
-                "python/spatial/intro.md"
-        ]},
+    { "Open Data Stack" = [
+        "open-data/index.md"
     ]},
     { "Community" = [
         "community/index.md"
@@ -84,7 +71,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/home.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -149,7 +136,7 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#code-actions
-    #"content.action.edit",
+    "content.action.edit",
 
     # If you have a repository configured and turn feature this on, Zensical
     # will generate a button that allows the user to view the Markdown
@@ -330,6 +317,8 @@ toggle.name = "Switch to light mode"
 # ----------------------------------------------------------------------------
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/nusawavelab/nusawavelab.github.io"
+link = "https://github.com/nusawave-labs"
 
-
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/company/nusawave"
