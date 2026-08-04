@@ -6,9 +6,9 @@ icon: lucide/crosshair
 
 Extract Hs, Tp, and wind speed at any location from ERA5 — reading 0.0001% of the data, not 100%.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nusawave-labs/extract-point/blob/main/notebooks/extract_point.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/monsun-labs/extract-point/blob/main/notebooks/extract_point.ipynb)
 &nbsp;
-[View on GitHub :fontawesome-brands-github:](https://github.com/nusawave-labs/extract-point){ .md-button }
+[View on GitHub :fontawesome-brands-github:](https://github.com/monsun-labs/extract-point){ .md-button }
 
 ---
 
@@ -49,7 +49,7 @@ This tutorial teaches you the pattern that's right.
 
 ## Prerequisites
 
-None — this is the first published Nusawave Labs tutorial.
+None — this is the first published Monsun Labs tutorial.
 Basic Python familiarity is helpful but not required.
 
 ---
@@ -60,17 +60,17 @@ Click the Colab badge above, then **Runtime → Run all**.
 
 The notebook bootstraps itself: clones the repo, installs dependencies from
 `requirements-notebook.txt`, and downloads the sample ERA5 file (~120 MB) from
-[GitHub Releases](https://github.com/nusawave-labs/extract-point/releases/tag/v0.1-data).
+[GitHub Releases](https://github.com/monsun-labs/extract-point/releases/tag/v0.1-data).
 No terminal. No CDS account. No local setup.
 
 **Local alternative:**
 
 ```bash
-git clone https://github.com/nusawave-labs/extract-point.git
+git clone https://github.com/monsun-labs/extract-point.git
 cd extract-point
 mkdir -p data
 wget -q -O data/era5_sample.nc \
-  https://github.com/nusawave-labs/extract-point/releases/download/v0.1-data/era5_sample.nc
+  https://github.com/monsun-labs/extract-point/releases/download/v0.1-data/era5_sample.nc
 pip install -r requirements-notebook.txt
 jupyter notebook notebooks/extract_point.ipynb
 ```
@@ -193,7 +193,7 @@ The tutorial uses `era5_sample.nc`, a pre-sliced ERA5 file:
 | Variables | `swh` (Hs), `tp`, `u10`, `v10`, `mwd`, `shts`, `mdts`, `mpts` |
 | Size | ~120 MB |
 
-The file is hosted on [GitHub Releases](https://github.com/nusawave-labs/extract-point/releases/tag/v0.1-data)
+The file is hosted on [GitHub Releases](https://github.com/monsun-labs/extract-point/releases/tag/v0.1-data)
 and downloaded automatically by the Step 0 bootstrap cell.
 No Copernicus CDS account is needed to run the tutorial.
 
@@ -398,7 +398,7 @@ extract-point/
 ```
 
 The sample NetCDF (`era5_sample.nc`, ~120 MB) is **not** in git — it is hosted on
-[GitHub Releases](https://github.com/nusawave-labs/extract-point/releases/tag/v0.1-data)
+[GitHub Releases](https://github.com/monsun-labs/extract-point/releases/tag/v0.1-data)
 and downloaded by the Step 0 cell.
 
 ---
@@ -434,7 +434,7 @@ This tutorial uses [ERA5](https://cds.climate.copernicus.eu/datasets/reanalysis-
 from ECMWF via the Copernicus Climate Data Store.
 The pre-sliced sample file requires no account — it is hosted directly on GitHub Releases.
 To download your own ERA5 slice, see
-[`scripts/download_era5.py`](https://github.com/nusawave-labs/extract-point/blob/main/scripts/download_era5.py).
+[`scripts/download_era5.py`](https://github.com/monsun-labs/extract-point/blob/main/scripts/download_era5.py).
 See the [Open Data Stack](../../open-data/index.md) for full access notes.
 
 ---
@@ -449,7 +449,7 @@ In the next release, we will cover the following topics:
 | Time Series Analysis | Aug 2026 | Resample, trend, seasonal decomposition |
 | Waves Basics | Sep 2026 | Hs, Tp, Dir, scatter diagrams, wave rose |
 
-Follow [Nusawave on LinkedIn](https://www.linkedin.com/company/109905023)
+Follow [Monsun on LinkedIn](https://www.linkedin.com/company/monsunic)
 for release announcements.
 
 ---

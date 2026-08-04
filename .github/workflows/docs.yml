@@ -1,4 +1,4 @@
-name: NusawaveLab
+name: MonsunLab
 on:
   push:
     branches:

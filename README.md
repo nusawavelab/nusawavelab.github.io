@@ -1,15 +1,15 @@
-# Nusawave Labs
+# Monsun Labs
 
 Open-source knowledge hub for metocean analytics — project-first Python tutorials using ERA5, Copernicus, NOAA, and other open data.
 
-**Live site:** [nusawave-labs.github.io](https://nusawave-labs.github.io)
+**Live site:** [monsun-labs.github.io](https://monsun-labs.github.io)
 
 ## Two-repo pattern
 
 | Repo | Role |
 |------|------|
-| [nusawave-labs.github.io](https://github.com/nusawave-labs/nusawave-labs.github.io) | Public website — landing pages, open-data reference |
-| [extract-point](https://github.com/nusawave-labs/extract-point) | First tutorial — notebook, code, sample data |
+| [monsun-labs.github.io](https://github.com/monsun-labs/monsun-labs.github.io) | Public website — landing pages, open-data reference |
+| [extract-point](https://github.com/monsun-labs/extract-point) | First tutorial — notebook, code, sample data |
 
 LinkedIn (discovery) → Website (landing pages) → Tutorial repo (Colab + code).
 
@@ -49,7 +49,7 @@ Do not add nav entries or stub pages before the tutorial repo exists.
 
 | Tutorial | Repo |
 |----------|------|
-| Point Extraction | [extract-point](https://github.com/nusawave-labs/extract-point) |
+| Point Extraction | [extract-point](https://github.com/monsun-labs/extract-point) |
 
 ## Contributing
 

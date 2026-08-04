@@ -1,6 +1,6 @@
 # Open Data Stack
 
-Nusawave Labs tutorials use **open data only**. Gated or proprietary datasets (e.g. restricted national archives) are not used in public Labs content.
+Monsun Labs tutorials use **open data only**. Gated or proprietary datasets (e.g. restricted national archives) are not used in public Labs content.
 
 ## Policy
 
@@ -38,10 +38,10 @@ Nusawave Labs tutorials use **open data only**. Gated or proprietary datasets (e
 
 ## Sample Data
 
-Pre-sliced tutorial data ships with each tutorial repo. For example, see [extract-point/data/](https://github.com/nusawave-labs/extract-point/tree/main/data).
+Pre-sliced tutorial data ships with each tutorial repo. For example, see [extract-point/data/](https://github.com/monsun-labs/extract-point/tree/main/data).
 
 Sample files are for teaching only — not certified for engineering design.
 
 ## Attribution
 
-When reusing Nusawave Labs data or methods, cite the original data provider and Nusawave Labs (CC-BY 4.0 for documentation content).
+When reusing Monsun Labs data or methods, cite the original data provider and Monsun Labs (CC-BY 4.0 for documentation content).

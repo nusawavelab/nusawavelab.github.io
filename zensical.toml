@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Nusawave Labs"
+site_name = "Monsun Labs"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -22,14 +22,14 @@ site_description = "Learn metocean analystics from open data. Free forever."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "Nusawave Labs"
+site_author = "Monsun Labs"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://nusawave-labs.github.io/"
+site_url = "https://monsun-labs.github.io/"
 
-repo_url = "https://github.com/nusawave-labs/nusawave-labs.github.io"
+repo_url = "https://github.com/monsun-labs/monsun-labs.github.io"
 repo_name = "GitHub"
 edit_uri = "edit/main/docs/"
 
@@ -38,7 +38,7 @@ edit_uri = "edit/main/docs/"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2026 Nusawave Labs. Code: <a href=\"https://github.com/nusawave-labs/nusawave-labs.github.io/blob/main/LICENSE\">MIT</a>. Content: <a href=\"LICENSE-CONTENT/\">CC-BY 4.0</a>.
+Copyright &copy; 2026 Monsun Labs. Code: <a href=\"https://github.com/monsun-labs/monsun-labs.github.io/blob/main/LICENSE\">MIT</a>. Content: <a href=\"LICENSE-CONTENT/\">CC-BY 4.0</a>.
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -317,8 +317,8 @@ toggle.name = "Switch to light mode"
 # ----------------------------------------------------------------------------
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/nusawave-labs"
+link = "https://github.com/monsun-labs"
 
 [[project.extra.social]]
 icon = "fontawesome/brands/linkedin"
-link = "https://www.linkedin.com/company/nusawave"
+link = "https://www.linkedin.com/company/monsunic"

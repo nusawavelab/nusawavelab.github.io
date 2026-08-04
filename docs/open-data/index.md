@@ -4,7 +4,7 @@ icon: lucide/database
 
 # Open Data Stack
 
-Nusawave Labs uses **open data only** — reproducible tutorials with ERA5, Copernicus Marine, NOAA, GLOSS, and IOWAGA.
+Monsun Labs uses **open data only** — reproducible tutorials with ERA5, Copernicus Marine, NOAA, GLOSS, and IOWAGA.
 
 ## Primary Sources
 
@@ -30,9 +30,9 @@ Nusawave Labs uses **open data only** — reproducible tutorials with ERA5, Cope
 
 ## Sample Data
 
-Pre-sliced files ship with each tutorial repo — for example, [extract-point/data/](https://github.com/nusawave-labs/extract-point/tree/main/data).
+Pre-sliced files ship with each tutorial repo — for example, [extract-point/data/](https://github.com/monsun-labs/extract-point/tree/main/data).
 
-Full access instructions and attribution requirements are in [DATA_SOURCES.md](https://github.com/nusawave-labs/nusawave-labs.github.io/blob/main/DATA_SOURCES.md) on GitHub.
+Full access instructions and attribution requirements are in [DATA_SOURCES.md](https://github.com/monsun-labs/monsun-labs.github.io/blob/main/DATA_SOURCES.md) on GitHub.
 
 ## Dependencies
 

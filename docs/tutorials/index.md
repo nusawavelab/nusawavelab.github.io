@@ -8,7 +8,7 @@ We publish project-first metocean tutorials monthly. Each tutorial has its own G
 
 | Tutorial | Repo | Status |
 |----------|------|--------|
-| [Point Extraction](extract-point/index.md) | [extract-point](https://github.com/nusawave-labs/extract-point) | Early release |
+| [Point Extraction](extract-point/index.md) | [extract-point](https://github.com/monsun-labs/extract-point) | Early release |
 
 ## Coming Next
 
@@ -18,4 +18,4 @@ We publish project-first metocean tutorials monthly. Each tutorial has its own G
 | Time Series Analysis | Aug 2026 | Resample, trend, decomposition |
 | Waves Basics | Sep 2026 | Hs, Tp, Dir, wave rose |
 
-Follow [Nusawave on LinkedIn](https://www.linkedin.com/company/nusawave) for release announcements.
+Follow [Monsun on LinkedIn](https://www.linkedin.com/company/monsunic) for release announcements.
