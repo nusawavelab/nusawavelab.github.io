@@ -27,7 +27,7 @@ site_author = "Monsun Labs"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://monsun-labs.github.io/"
+site_url = "https://monsun.io/labs/"
 
 repo_url = "https://github.com/monsun-labs/monsun-labs.github.io"
 repo_name = "GitHub"
